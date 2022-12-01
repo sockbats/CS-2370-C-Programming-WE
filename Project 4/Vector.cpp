@@ -24,7 +24,6 @@ Vector::Vector(const Vector &v) {
 }
 
 Vector &Vector::operator=(const Vector &v) {
-//    auto lv = new Vector;
     data_ptr = v.data_ptr;
     capacity = v.capacity;
     n_elems = v.n_elems;
